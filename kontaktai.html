@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=icon href="https://github.com/fluidicon.png">
-    <title>Kontaktai</title>
-</head>
+<html>
 <body>
-    
+
+<h2>Registracija naujiems klientams</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Vardas:</label><br>
+  <input type="text" id="fname" name="fname" value="..."><br>
+  <label for="lname">Pavardė:</label><br>
+  <input type="text" id="lname" name="lname" value="..."><br>
+  <label for="adress">Adresas:</label><br>
+  <input type="text" id="adress" name="adress" value="..."><br>
+  <label for="taun">Miestas:</label><br>
+  <input type="text" id="taun" name="taun" value="..."><br>
+  <label for="phone">Telefonas:</label><br>
+  <input type="number" id="phone" name="phone" value="..."><br>
+  <label for="email">El.Paštas:</label><br> 
+  <input type="text" id="email" name="email" value="..."><br><br>
+  <label for="checbox">Aš sutinku su paslaugų teikimo sąlygomis:</label><br>
+  <input type="tick" id="tick" name="tick" value="..."><br><br>
+
+  <input type="submit" value="Registruotis">
+</form> 
+
+<p>Jei paspausite "Registruotis" mygtuką, jūsų duomenys bus persiųsti į foreverliving.php.</p>
+
 </body>
 </html>
